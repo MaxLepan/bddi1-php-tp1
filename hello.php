@@ -1,5 +1,8 @@
 <?
- 
-echo "Hello {$argv[1]}";
+if ($argc < 2){
+	echo "Hello World";
+}else{
+	echo "Hello {$argv[1]}";
+}
 
-//print-r(
+//print_r($argc);
