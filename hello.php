@@ -4,5 +4,3 @@ if ($argc < 2){
 }else{
 	echo "Hello {$argv[1]}";
 }
-
-//print_r($argc);
