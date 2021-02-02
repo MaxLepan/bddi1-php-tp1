@@ -1,3 +1,5 @@
-<? 
+<?
+ 
+echo "Hello {$argv[1]}";
 
-echo "Hello World";
+//print-r(
